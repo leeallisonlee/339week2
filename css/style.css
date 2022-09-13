@@ -1,0 +1,21 @@
+body {
+    font-family: Courier, "Times New Roman", Impact; 
+    /* The first, second, third choice of font depending on what font the user computer can load, if all 3 doesnt work, default browser font loads */
+    /* Times New Roman in quotes because multi word */
+    line-height: 2;
+    color:blueviolet;
+    background-color: white;
+    font-size: 20px;
+
+}
+
+img {
+    border: 5px solid green
+    /* You must ALWAYS have border type (solid, dotted, etc) */
+}
+
+li {
+    border: solid 2px lightcoral;
+    /* Covers the whole page, so must use display values to change it (inline, block, inline-block, none)*/
+    display: inline;
+}
